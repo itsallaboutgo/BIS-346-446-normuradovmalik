@@ -1,6 +1,7 @@
 
 alphabetString = "abcdefghijklmnopqrstuvwxyz"
-
+# Received error "NameError: name 'alphabet' is not defined"
+# TAA -5
 # a:First half of the string using starting and ending indices
 firsthalf=int(len(alphabet)/2)
 print(alphabet[0:firsthalf])

@@ -23,6 +23,9 @@ for i in invoice: # for each tuple inside invoice tuple
 print(sorted(y, key=itemgetter(1))) # sorting tuple y according to teh value
 
 #filtering the results of for the values between 200 and 500
+# You need to define before using it: NameError: name 'total' is not defined
+# TAA -5
+
 for i in y:
     total += i[1] # add value of each item to total
     

@@ -9,4 +9,4 @@ def display_tablet(lst):
             for col in lst[i]:
                 print(col,end="\t")
             print()
-            
+# You are only defining a function, not calling it. -5 TAA            
